@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --success: #4DB6AC;
+    --hover: #E3BDA8;
+    --font: 'Source Code Pro', monospace;
+    --edu-sa-beginner: 'Edu SA Beginner';
+}
+
+h5 {
+    font-family: var(--edu-sa-beginner);
+}
+
+
+li {
+    list-style: none;
+}
+
+
+/* home__navber__section */
+.menu-wrapper {
+    background: var(--success);
+    height: 70px;
+}
+
+.navbar-nav,
+.nav-item a {
+    font-size: 14px;
+}
+
+.nav-item li,
+a {
+    margin: 0 1vw;
+}
+
+.dropdown-menu li a {
+    width: 13rem;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+    color: var(--success);
+}
+
+.dropdown>.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover>.dropdown-menu,
+.dropend:hover>.dropdown-menu {
+    display: block;
+    margin-top: .125em;
+}
+
+.dropend:hover>.dropdown-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: .125em;
+}
+
+.caption h2 {
+    color: var(--success);
+    font-weight: 500;
+}
+
+/* home__banner */
+.home .home-banner-1,
+.home .home-banner-2,
+.home .home-banner-3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+    position: relative;
+}
+
+.home .home-banner-1 {
+    background-image: url("../image/sliders/index-slider-v5-1.png");
+}
+
+.home .home-banner-2 {
+    background-image: url("../image/sliders/index-slider-v5-2.png");
+}
+
+.home .home-banner-3 {
+    background-image: url("../image/sliders/index-slider-v5-3.jpg");
+}
+
+.home .home-banner .home-banner-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    height: 100px;
+}
+
+.home .home-banner .home-banner-text h1 {
+    font-size: 3rem;
+    color: var(--success);
+}
+
+.home .home-banner .home-banner-text p {
+    width: 31rem;
+    font-size: 14px;
+}
+
+.home .home-banner-2 .home-banner-text-2 {
+    position: absolute;
+    top: 30%;
+    left: 50% !important;
+    height: 100px;
+}
+
+.home-banner-text button {
+    background-color: var(--success);
+    border: var(--success);
+}
+
+
+.home-banner-text button:hover {
+    background-color: var(--hover);
+    border: var(--success);
+}
+
+
+/* Face__&__Beauty__Care */
+.beautypress-single-header h5 {
+    color: var(--success);
+}
+
+.product__detaile h4 {
+    color: var(--hover);
+}
+
+.product__detaile p {
+    font-size: 15px;
+}
+
+.product__button {
+    background-color: var(--success);
+    border: var(--success);
+    height: 53px;
+    width: 174px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.product__button:hover {
+    background-color: var(--hover);
+    border: var(--success);
+}
+
+.comparison__discription h5 {
+    color: var(--success);
+}
+
+
+/* our__vission */
+.our_vission_button {
+    background-color: var(--hover);
+    border: var(--hover);
+    height: 53px;
+    width: 174px;
+
+}
+
+.our_vission_button:hover {
+    background-color: var(--success);
+    border: var(--success);
+
+}
+
+
+/* Beauty Press suitable for */
+.beauty_press_border {
+    border: 10px solid var(--hover);
+    height: 27rem;
+    width: 30rem;
+}
+
+.beauty_press_icon {
+    position: relative;
+    top: -60%;
+    right: -54%;
+    background: var(--success);
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+}
+
+.beauty_press_icon i {
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    line-height: 58px;
+    margin-left: 24px;
+}
+
+
+.beauty_press_detile {
+    font-size: 14px;
+    margin-right: -10px;
+    color: var(--hover);
+
+}
+
+.beauty_press_check_border {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    border: 2px solid #DEDEDE;
+}
+
+
+.beauty_press_check_border i {
+    position: relative;
+    left: -23px;
+    top: 20%;
+    color: var(--hover);
+    font-size: 18px;
+}
+
+.beauty_press {
+    background-color: var(--success);
+    border: var(--success);
+    height: 50px;
+
+}
+
+.beauty_press:hover {
+    background-color: var(--hover);
+    border: var(--hover);
+
+}
+
+/* popolar-searvices */
+.card-body-searvices a {
+    color: var(--hover);
+}
+
+/* elementor-ntro Video */
+.elementor-section {
+    background-image: url("../image/banners/video-bg-v2.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.elementor_icon {
+    background: var(--success);
+    border-radius: 100%;
+    height: 74px;
+    width: 74px;
+}
+
+.elementor_icon i {
+    color: white;
+    font-size: 23px;
+    margin: auto;
+    position: relative;
+
+}
+
+.elementor-image {
+    margin-top: -9rem;
+}
+
+
+/* our-team */
+.our-team-detaile {
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    height: 0;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, #e2b9a3 0%, rgba(255, 255, 255, 0) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    transition: .5s ease;
+}
+
+.our-team-detaile:hover .overlay {
+    height: 100%;
+
+}
+
+.overlay h5 {
+    width: 100%;
+    margin-top: 65%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.overlay p {
+    width: 100%;
+    margin-top: 74%;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.beautypress-social-list {
+    width: 100%;
+    margin-top: 87%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.beautypress-social-list i {
+    text-align: center;
+}
+
+/* facebook */
+.beautypress-social-list .beautypress-facebook {
+    background-color: #3B5999;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-facebook i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+/* twitter */
+.beautypress-social-list .beautypress-twitter {
+    background-color: #55ACEE;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-twitter i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+/* pinterest */
+.beautypress-social-list .beautypress-pinterest {
+    background-color: #BD081C;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-pinterest i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -6px;
+    margin-top: 9px;
+}
+
+/* dribbble */
+.beautypress-social-list .beautypress-dribbble {
+    background-color: #ea4f8a;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-dribbble i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+.beautypress-social-list a:hover {
+    background-color: black;
+}
+
+/* Pricing Plan  */
+.parallax {
+    background-image: url("../image/parallax/pricing-bg.png");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.our-team-detaile {
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    height: 0;
+}
+
+.overlay-1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgba(255, 255, 255, 0) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg, #ec5598 0%, rgba(255, 255, 255, 0) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.overlay-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg, #00bcd4 0%, rgba(255, 255, 255, 0) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.beautypress-pricing-header-content {
+    margin-top: 165px;
+}
+
+.beautypress-appointment {
+    background-color: var(--hover);
+    border: var(--hover);
+    height: 50px;
+}
+
+.beautypress-appointment:hover {
+    background-color: var(--success);
+    border: var(--success);
+}
+
+.beautypress-appointment-2 {
+    background-color: var(--success);
+    border: var(--success);
+    height: 50px;
+}
+
+.beautypress-appointment-2 :hover {
+    background-color: var(--hover);
+    border: var(--hover);
+}
+
+
+/* A simple & minimal counter */
+.parallax-counter {
+    background-image: url("../image/parallax/fun-fact-bg-v2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.beautypress-single-header {
+    margin-top: 140px;
+}
+
+.beautypress-counter-list {
+    margin: auto;
+    position: relative;
+}
+
+.card-simple-counter {
+    position: relative;
+    width: 105%;
+    height: 267px;
+    top: 30px;
+}
+
+.beautypress-counter-number {
+    font-size: 3rem;
+    color: var(--hover);
+    font-family: var(--font);
+}
+
+
+/* Client Review */
+.client-review-detaile {
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    height: 0;
+}
+
+.overlay-client-review {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg, rgb(226, 185, 163) 0%, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.5) 40%, rgba(255, 255, 255, 0) 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.client-review-discription {
+    position: absolute;
+    right: 17%;
+    bottom: 0;
+}
+
+.client-review-header p {
+    font-size: 15px;
+    width: 23rem;
+}
+
+.client-review-header h4 {
+    color: var(--hover);
+}
+
+.client-review-ratting {
+    color: #F8B03F;
+}
+
+.service-input {
+    height: 53px;
+    font-size: 14px;
+}
+
+.client-review-sibmit {
+    background-color: var(--hover);
+    border: var(--hover);
+    height: 50px;
+}
+
+.client-review-sibmit:hover {
+    background-color: var(--success);
+    border: var(--success);
+}
+
+
+/* need-beauty-serives */
+.section-beauty-service {
+    background-image: url("../image/banners/bg_4.jpg");
+    min-height: 200px;
+    background-repeat: no-repeat;
+}
+
+/* footer-section */
+
+.footer-section-first-image {
+    background-image: url("../image/footer/footer-shape-1-green.png");
+    min-height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.footer-input {
+    margin-top: 150px;
+}
+
+.footer-input input {
+    font-size: 14px;
+    height: 62px;
+    width: 548px;
+    margin-left: 281px;
+
+}
+
+.footer-search {
+    position: absolute;
+    background-color: var(--success);
+    border: var(--success);
+    height: 50px;
+}
+
+.footer-search:hover {
+    background-color: var(--hover);
+    border: var(--hover);
+}
+
+
+.footer-input button {
+    position: relative;
+    right: 185px;
+    top: 6px;
+
+}
+
+
+
+.footer-time-sheduling p{
+    line-height: 8px;
+}
+
+
+.footer-copy-text{
+    background-color: #6BB6AE;
+    height: 100px;
+}
