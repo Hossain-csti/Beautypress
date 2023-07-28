@@ -78,6 +78,7 @@ a {
     background-position: center;
     min-height: 650px;
     position: relative;
+
 }
 
 .home .home-banner-1 {
@@ -161,6 +162,11 @@ a {
 
 
 /* our__vission */
+.our_vission_header {
+    margin-top: 100px;
+
+}
+
 .our_vission_button {
     background-color: var(--hover);
     border: var(--hover);
@@ -288,7 +294,6 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, #e2b9a3 0%, rgba(255, 255, 255, 0) 100%);
     overflow: hidden;
     width: 100%;
     height: 80%;
@@ -470,7 +475,7 @@ a {
     height: 50px;
 }
 
-.beautypress-appointment-2 :hover {
+.beautypress-appointment-2:hover {
     background-color: var(--hover);
     border: var(--hover);
 }
@@ -573,6 +578,419 @@ a {
     background-repeat: no-repeat;
 }
 
+
+
+
+/* ==================================
+    about-section
+===================================== */
+.hero-section {
+    background-image: url("../image/banners/about_us-1.jpg");
+    width: 100%;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-section-text {
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+/* our-customers */
+.customar-title h1 {
+    font-weight: 100;
+    font-size: 41px;
+    margin-left: 146px;
+    line-height: 60px;
+    margin-top: 130px;
+    max-width: 100%;
+}
+
+.customar-survice-icon {
+    background: var(--hover);
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+    top: -20rem;
+}
+
+.customar-survice-icon i {
+    color: white;
+    line-height: 58px;
+    margin-left: 24px;
+}
+
+
+/* expert-beautician */
+.beautician-section {
+    background-color: #EEF2F5;
+}
+
+/* our-team */
+.our-team-detaile {
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    height: 0;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, #e2b9a3 0%, rgba(255, 255, 255, 0) 50%);
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    transition: .5s ease;
+}
+
+.our-team-detaile:hover .overlay {
+    height: 100%;
+
+}
+
+.overlay h5 {
+    width: 100%;
+    margin-top: 65%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.overlay p {
+    width: 100%;
+    margin-top: 74%;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.beautypress-social-list {
+    width: 100%;
+    margin-top: 87%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.beautypress-social-list i {
+    text-align: center;
+}
+
+/* facebook */
+.beautypress-social-list .beautypress-facebook {
+    background-color: #3B5999;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-facebook i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+/* twitter */
+.beautypress-social-list .beautypress-twitter {
+    background-color: #55ACEE;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-twitter i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+/* pinterest */
+.beautypress-social-list .beautypress-pinterest {
+    background-color: #BD081C;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-pinterest i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -6px;
+    margin-top: 9px;
+}
+
+/* dribbble */
+.beautypress-social-list .beautypress-dribbble {
+    background-color: #ea4f8a;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-dribbble i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+.beautypress-social-list a:hover {
+    background-color: black;
+}
+
+
+
+/* jenny-smith */
+.jenny-smith-parallax {
+    background-image: url("../image/parallax/testimonial-bg.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.jenny-smith-parallax .carousel-parallax-indicators {
+    bottom: 200px !important;
+}
+
+.beautypress-single-testimonial {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.beautypress-single-testimonial {
+    margin-top: 160px;
+}
+
+.beautypress-single-testimonial h2,
+p {
+    color: #D7D8D9;
+}
+
+.beautypress-rating a {
+    color: #E58D04;
+}
+
+
+/* our-team */
+.our-team-detaile {
+    position: relative;
+    width: 100%;
+}
+
+.image img {
+    display: block;
+    height: 0;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    transition: .5s ease;
+}
+
+.overlay-dr-info-1 {
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(125, 0, 254) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.overlay-dr-info-2 {
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, #ec5598 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.overlay-dr-info-3 {
+    background-image: -webkit-linear-gradient(90deg, rgb(211, 16, 39) 0%, rgb(0, 188, 212) 0%, rgba(255, 255, 255, 0) 50%);
+}
+
+.our-team-detaile:hover .overlay {
+    height: 100%;
+
+}
+
+.overlay h5 {
+    width: 100%;
+    margin-top: 65%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.overlay p {
+    width: 100%;
+    margin-top: 74%;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.beautypress-social-list {
+    width: 100%;
+    margin-top: 87%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.beautypress-social-list i {
+    text-align: center;
+}
+
+/* facebook */
+.beautypress-social-list .beautypress-facebook {
+    background-color: #3B5999;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-facebook i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+/* twitter */
+.beautypress-social-list .beautypress-twitter {
+    background-color: #55ACEE;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-twitter i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+/* pinterest */
+.beautypress-social-list .beautypress-pinterest {
+    background-color: #BD081C;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-pinterest i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -6px;
+    margin-top: 9px;
+}
+
+/* dribbble */
+.beautypress-social-list .beautypress-dribbble {
+    background-color: #ea4f8a;
+    height: 35px;
+    width: 35px;
+}
+
+.beautypress-dribbble i {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    margin-left: -8px;
+    margin-top: 9px;
+}
+
+.beautypress-social-list a:hover {
+    background-color: black;
+}
+
+
+
+/* ==================================
+    Shop-section
+===================================== */
+.shop-section {
+    background-image: url("../image/banners/inner-section-bg.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shop-header{
+    position: relative;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    top: 200px;;
+    
+
+}
+
+
+.product-shop-name{
+    color: #6A1B9A;
+}
+
+.product-shop-add-cart{
+    background-color: #6A1B9A;
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+}
+
+
+.product-shop-add-cart:hover{
+    background-color: #c1cad2;
+    color: rgb(47, 46, 46);
+
+}
+
+.search-section button{
+    background-color: #6A1B9A;
+    border-color: #6A1B9A;
+    width: 100px;
+    height: 56px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer-section */
 
 .footer-section-first-image {
@@ -617,12 +1035,12 @@ a {
 
 
 
-.footer-time-sheduling p{
+.footer-time-sheduling p {
     line-height: 8px;
 }
 
 
-.footer-copy-text{
+.footer-copy-text {
     background-color: #6BB6AE;
     height: 100px;
 }
