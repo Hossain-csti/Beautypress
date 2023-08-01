@@ -12,7 +12,7 @@
     --edu-sa-beginner: 'Edu SA Beginner';
 }
 
-.header_fafa_icon{
+.header_fafa_icon {
     font-size: 20px;
     padding: 5px;
 }
@@ -150,7 +150,7 @@ a {
 .product__button {
     background-color: var(--success);
     border: var(--success);
-    height: 53px;
+    height: 40px;
     width: 174px;
     text-align: center;
     font-size: 15px;
@@ -163,6 +163,15 @@ a {
 
 .comparison__discription h5 {
     color: var(--success);
+}
+
+.home_product_btn {
+    background-color: #4DB6AC;
+}
+
+.home_product_btn:hover {
+    background-color: var(--hover);
+    border: var(--success);
 }
 
 
@@ -583,6 +592,11 @@ a {
     background-repeat: no-repeat;
 }
 
+.section-beauty-service-overlay {
+    background: rgba(46, 46, 46, 0.5);
+    min-height: 200px;
+}
+
 
 /* ==================================
     Common Hero Section
@@ -604,6 +618,28 @@ a {
 }
 
 .common-hero-section-text {
+    width: 66%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+
+.common-about-hero-section {
+    background-image: url("../image/banners/about_us-1.jpg");
+    width: 100%;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.common-about-hero-section-overlay {
+    background: rgba(46, 46, 46, 0.5);
+    min-height: 400px;
+    width: 100%;
+}
+
+.common-about-hero-section-text {
     width: 66%;
     margin: 0 auto;
     margin-top: 200px;
@@ -967,22 +1003,23 @@ p {
 
 }
 
-.shop-header{
+.shop-header {
     position: relative;
     text-align: center;
     width: 60%;
     margin: 0 auto;
-    top: 200px;;
-    
+    top: 200px;
+    ;
+
 
 }
 
 
-.product-shop-name{
+.product-shop-name {
     color: #6A1B9A;
 }
 
-.product-shop-add-cart{
+.product-shop-add-cart {
     background-color: #6A1B9A;
     height: 30px;
     width: 100%;
@@ -990,17 +1027,17 @@ p {
 }
 
 
-.product-shop-add-cart:hover{
+.product-shop-add-cart:hover {
     background-color: #c1cad2;
     color: rgb(47, 46, 46);
 
 }
 
-.search-section button{
+.search-section button {
     background-color: #6A1B9A;
     border-color: #6A1B9A;
     width: 100px;
-    height: 56px
+    height: 45px
 }
 
 
@@ -1061,7 +1098,6 @@ p {
     position: relative;
     right: 185px;
     top: 6px;
-
 }
 
 
@@ -1074,4 +1110,21 @@ p {
 .footer-copy-text {
     background-color: #6BB6AE;
     height: 100px;
+}
+
+/* ####################### */
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+    .remove_item {
+        display: none !important;
+        margin-top: 250px !important;
+    }
+
+    .footer-section-first-image {
+        min-height: 350px;
+        background-repeat: none;
+    }
+
+    .footer-time-sheduling p {
+        line-height: 20px;
+    }
 }
