@@ -8,8 +8,8 @@
 :root {
     --success: #4DB6AC;
     --hover: #E3BDA8;
-    --font: 'Source Code Pro', monospace;
-    --edu-sa-beginner: 'Edu SA Beginner';
+    --font: 'Hind Siliguri', sans-serif;
+    --edu-sa-beginner: 'Poppins', sans-serif;
 }
 
 .header_fafa_icon {
@@ -1110,6 +1110,61 @@ p {
 .footer-copy-text {
     background-color: #6BB6AE;
     height: 100px;
+}
+
+
+/* ################# Contact Us Page ########################### */
+
+.contact-wrap p {
+    font-size: 13px;
+}
+
+.contact-phone a {
+    color: #000000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-phone a:hover {
+    color: var(--success);
+}
+
+.contact-phone i {
+    color: var(--success);
+    font-size: 20px;
+}
+
+.working-hours li {
+    font-size: 13px;
+    list-style: none;
+}
+
+.working-hours ul {
+    padding-left: 0px;
+}
+
+.working-hours ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.working-hours ul li > b{
+    color: #999;
+    float: right;
+    font-size: 14px;
+    font-weight: normal;
+}
+.working-hours ul li>span {
+    float: left;
+    font-size: 15px;
+}
+
+.contact_title{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 /* ####################### */
